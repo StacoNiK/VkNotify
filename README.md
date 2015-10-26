@@ -1,0 +1,2 @@
+# VkNotify
+For Linux
