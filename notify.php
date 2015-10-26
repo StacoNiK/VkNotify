@@ -10,8 +10,10 @@ include('VK.php');
 $config = include('config.php');
 
 //получаем access_token
-$token = file('token.txt');
-if (array_key_exists('0', $token)) {
+$fr = fopen('token.txt', 'r+');
+$token = fread($fr);
+fclose($fr);
+if (mb_strlen($token) > 16) {
 	$token = $token[0];
 } else {
 	$vk_auth = new VkAuth();
