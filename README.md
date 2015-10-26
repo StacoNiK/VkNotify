@@ -2,7 +2,8 @@
 Работает только на дистрибутивах Linux
 
 **Установка**
-1. Выполните команду git clone https://github.com/StacoNiK/VkNotify.git
-2. Укажите логин и пароль от вконтакте в файле config.php
-3. Запустите файл notify.php (Пример: php путь_к_файлу/notify.php)
+
+* Выполните команду `git clone https://github.com/StacoNiK/VkNotify.git`
+* Укажите логин и пароль от вконтакте в файле config.php
+* Запустите файл notify.php (Пример: `php путь_к_файлу/notify.php`)
 
